@@ -1,0 +1,113 @@
+import type { Language } from "./config";
+
+/**
+ * Chrome strings: navigation, auth, buttons, table headers. Product copy
+ * (marketing page, feature descriptions) lives in `content/marketing.ts`; the
+ * split keeps this file small enough to stay translated.
+ */
+export const ui = {
+  tr: {
+    // chrome
+    signIn: "Giriş yap",
+    getStarted: "Ücretsiz başla",
+    openDashboard: "Panele git",
+    search: "Ara",
+    searchKeywords: "Kelime veya URL ara",
+    export: "CSV indir",
+    viewAll: "Tümünü gör",
+    logout: "Çıkış yap",
+    account: "Hesap",
+    close: "Kapat",
+    reset: "Sıfırla",
+    filters: "Filtreler",
+    noResults: "Bu filtrelerle eşleşen kelime yok.",
+    demoBadge: "Demo verisi",
+    // auth
+    welcomeBack: "Tekrar hoş geldin",
+    createAccount: "Hesap oluştur",
+    email: "E-posta",
+    password: "Şifre",
+    fullName: "Ad soyad",
+    continueDemo: "Demo veriyle devam et",
+    orContinueWith: "veya",
+    noAccount: "Hesabın yok mu?",
+    haveAccount: "Zaten hesabın var mı?",
+    demoNote: "Demo modu · veritabanı bağlı değil, herhangi bir e-posta çalışır.",
+    authBlurb:
+      "Gerçek bir kelime setiyle önceden doldurulmuş bir panel açılacak. İstediğin gibi gez, hiçbir şey bozulmaz.",
+    // table headers
+    keyword: "Kelime",
+    position: "Poz.",
+    change: "Değişim",
+    best: "En iyi",
+    volume: "Hacim",
+    difficulty: "Zorluk",
+    intent: "Niyet",
+    url: "URL",
+    trend: "Eğilim",
+    clicks: "Tahmini tıklama",
+    // settings
+    settings: "Ayarlar",
+    workspace: "Çalışma alanı",
+    property: "Takip edilen site",
+    dataSources: "Veri kaynakları",
+    connected: "Bağlı",
+    notConnected: "Bağlı değil",
+    appearance: "Görünüm",
+    language: "Dil",
+    theme: "Tema",
+    dataSourcesHint:
+      "Anahtarlar .env.local içinde tanımlıysa kaynak bağlanır. Tanımlı değilse o bölüm paketlenmiş demo verisiyle çalışır.",
+  },
+  en: {
+    signIn: "Sign in",
+    getStarted: "Start free",
+    openDashboard: "Open dashboard",
+    search: "Search",
+    searchKeywords: "Search a keyword or URL",
+    export: "Download CSV",
+    viewAll: "View all",
+    logout: "Log out",
+    account: "Account",
+    close: "Close",
+    reset: "Reset",
+    filters: "Filters",
+    noResults: "No keywords match these filters.",
+    demoBadge: "Demo data",
+    welcomeBack: "Welcome back",
+    createAccount: "Create your account",
+    email: "Email",
+    password: "Password",
+    fullName: "Full name",
+    continueDemo: "Continue with demo data",
+    orContinueWith: "or",
+    noAccount: "No account yet?",
+    haveAccount: "Already have an account?",
+    demoNote: "Demo mode · no database connected, any email works.",
+    authBlurb:
+      "You are about to open a dashboard preloaded with a real keyword set. Click around; nothing breaks.",
+    keyword: "Keyword",
+    position: "Pos.",
+    change: "Change",
+    best: "Best",
+    volume: "Volume",
+    difficulty: "KD",
+    intent: "Intent",
+    url: "URL",
+    trend: "Trend",
+    clicks: "Est. clicks",
+    settings: "Settings",
+    workspace: "Workspace",
+    property: "Tracked property",
+    dataSources: "Data sources",
+    connected: "Connected",
+    notConnected: "Not connected",
+    appearance: "Appearance",
+    language: "Language",
+    theme: "Theme",
+    dataSourcesHint:
+      "A source connects when its keys are present in .env.local. Without them that section runs on the bundled demo data.",
+  },
+} satisfies Record<Language, Record<string, string>>;
+
+export type UIDictionary = (typeof ui)["en"];
