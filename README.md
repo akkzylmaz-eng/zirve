@@ -14,6 +14,8 @@ curve instead of an arithmetic mean.
 [![live](https://img.shields.io/badge/demo-zirve-1f2328?style=flat-square)](https://zirve-peach.vercel.app)
 [![ci](https://img.shields.io/github/actions/workflow/status/akkzylmaz-eng/zirve/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/akkzylmaz-eng/zirve/actions)
 
+<img src="docs/zirve-dashboard.png" alt="Zirve dashboard" width="900">
+
 </div>
 
 ---
@@ -215,6 +217,4 @@ evaluated; it is not open-source software. See `LICENSE` for the details.
 
 ---
 
-<div align="center">
-<sub>Built by <a href="https://github.com/akkzylmaz-eng">Vyesna</a></sub>
-</div>
+<img src="docs/zirve-keywords.png" alt="Keyword workspace" width="900">
