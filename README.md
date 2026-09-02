@@ -9,6 +9,11 @@ curve instead of an arithmetic mean.
 
 [Türkçe](#türkçe) · [English](#english)
 
+[**Canlı demo / Live demo →**](https://zirve-peach.vercel.app)
+
+[![live](https://img.shields.io/badge/demo-zirve-1f2328?style=flat-square)](https://zirve-peach.vercel.app)
+[![ci](https://img.shields.io/github/actions/workflow/status/akkzylmaz-eng/zirve/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/akkzylmaz-eng/zirve/actions)
+
 </div>
 
 ---
